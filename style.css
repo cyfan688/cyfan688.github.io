@@ -136,6 +136,29 @@ li {
   margin: 0;
 }
 
+.photo-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid img {
+  border-radius: 4px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.photo-grid figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
 footer {
   color: var(--muted);
   font-size: 0.85rem;
@@ -169,6 +192,10 @@ footer {
 
   main {
     padding-top: 32px;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
   }
 
   footer {
