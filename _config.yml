@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yifan Cheng"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Third-year undergraduate studying Applied Mathematics and Statistics, with research interests in offline reinforcement learning"
+  location         : "Stony Brook, New York"
+  employer         : "Stony Brook University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "Stony Brook University" 
 
   # Academic websites
   academia         : # URL
