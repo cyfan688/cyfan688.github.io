@@ -50,7 +50,7 @@
           <a href="#research-interests">Research Interests</a>
           <a href="#research motivation">Research Motivation</a>
           <a href="#projects">Projects &amp; Notes</a>
-          <a href="#">
+          <a href="#Person ideas: conceptual connection">Personal ideas: conceptual connection</a>
         </nav>
       </aside>
 
@@ -173,6 +173,33 @@
             </p>
           </article>
         </section>
+
+        <section id = "Person ideas: conceptual connection">
+          <h2>Personal ideas: conceptual connection</h2>
+          <p>
+            I enjoy identifying conceptual connections between different algorithms,
+            as these comparisons help me understand not only how an algorithm works,
+            but also why it is designed in a particular way.
+          </p>
+          <p>
+            <ul>
+            <li><strong>residual learning in ResNets and advantage estimation in reinforcement learning.</strong>
+            Although they serve different purposes, both describe a quantity relative to a reference.
+            A ResNet learns a residual relative to an identity mapping, while the advantage function measures the value of an action relative to the expected value of the current state.
+            In policy-gradient methods,
+            using a state-value baseline to estimate the advantage can reduce the variance of the gradient estimator and indicate whether an action performed better or worse than expected.
+            </li>
+            <li>
+              <Strong>Truncated policy iteration and DQN.</Strong>
+              Truncated policy iteration performs only a limited amount of policy evaluation before improving the policy.
+              DQN similarly relies on approximate value updates and periodically refreshes its target network.
+              Both approaches avoid waiting for exact convergence and use partial or delayed updates to balance computational cost and training stability.
+              However, these algorithms are not equivalent, and DQN is more naturally viewed as a form of approximate value iteration.
+              I treat these comparisons as learning intuitions rather than formal theoretical claims, and I continue to revise them as my understanding develops.
+            </li>
+            </ul>
+          
+          </p>
 
         <!--
           PHOTOS: upload images to the images folder, then remove this comment
